@@ -1,0 +1,58 @@
+/*  The follow code is a "reset" of sorts. The box-sizing property can make
+    building CSS layouts easier and a lot more intuitive.
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Styling and layout below */
+
+article {
+  margin-left: 250px;
+}
+
+figure, aside {
+  width: 25%;
+  float: right;
+}
+
+aside {
+  margin-left: 15px;
+}
+
+address {
+  margin-top: 100px;
+}
+
+#copy {
+  font-style: italic;
+}
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 250px;
+  float: left;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.inline {
+  color: red;
+}
+
+.width100 {
+  width: 100%;
+  height: auto;
+}
